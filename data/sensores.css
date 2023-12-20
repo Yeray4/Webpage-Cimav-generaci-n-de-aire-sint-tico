@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    font-family: sans-serif ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 70px;
+    min-height: 70PX;
+    
+}
+.img1{
+    width:110px;
+    height:auto; 
+}
+
+
+
+.navlink{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.titulo {
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.link1,.link2{
+    margin-top: 20px;
+    margin-right:15px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+
+.a1,.a2{
+    text-decoration: none; 
+}
+
+.contenedorRecuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.recuadro1 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    width: 600px;
+
+    border-radius: 10px;
+    background: #F1F1F1;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.contenedortexto {
+    display: flex;
+    
+    background: #F1F1F1;
+    align-items: center;
+}
+
+.nombre {
+    margin-right: 30px;
+    font-weight: bold;
+    color: #4C3EE9;
+    background: #F1F1F1;
+    font-size: 22px;
+}
+.t1,
+.t2,
+.t3,.t4,.t5,
+.t1c,.t2c,.t3c,.t4c,.t5c {
+    display: inline-block;
+    margin-right: 5px;
+    background: #F1F1F1;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+.valort1,.valort2,.valort3,.valort4,.valort5,
+.valorRH1,.valorRH2,.valorRH3,.valorRH4,.valorRH5,.valorfhv,.dstemp,.var,.valvula{
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    
+}
+.t1c,.t2c,.t3c,.t4c,.t5c{
+    margin-right: 30px;
+}
+footer {
+
+    background-color: #363636;
+    /* Color de fondo del footer */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
+    text-align: left;
+}
+
+
+  

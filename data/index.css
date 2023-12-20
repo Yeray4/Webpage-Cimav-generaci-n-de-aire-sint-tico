@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    font-family: sans-serif ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-right: 100px;
+    padding-left: 70px;
+    min-height: 70PX;
+    
+}
+.img1{
+    width:110px;
+    height:auto; 
+}
+
+
+
+.navlink{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.titulo {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.ope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #888888;
+}
+
+form {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+select {
+    font-size: 1.4em;
+    /* Tamaño de fuente */
+    padding: 10px;
+    /* Espacio alrededor del texto */
+    border-radius: 10px;
+    /* Borde redondeado */
+    width: 500px;
+    background-color: #F1F1F1;
+    /* Color de fondo */
+    color: #4C3EE9;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+input[type="submit"] {
+
+    background-color: #080808;
+    /* Cambiar el color de fondo del botón */
+    color: white;
+    /* Cambiar el color del texto del botón */
+    border: none;
+    /* Eliminar el borde del botón */
+    padding: 10px 20px;
+    /* Cambiar el espaciado interno del botón */
+    border-radius: 10px;
+    font-size: 18px;
+    /* Cambiar el tamaño de fuente del botón */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar por encima del botón */
+   
+}
+
+.btnop {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #080808;
+    /* Cambiar el color de fondo del botón */
+    color: white;
+    /* Cambiar el color del texto del botón */
+    border: none;
+    /* Eliminar el borde del botón */
+    padding: 10px 20px;
+    /* Cambiar el espaciado interno del botón */
+    border-radius: 10px;
+    font-size: 18px;
+    /* Cambiar el tamaño de fuente del botón */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar por encima del botón */
+}
+
+select option {
+    color: #000;
+}
+
+.contenedorRecuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro1 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    width: 700px;
+
+    border-radius: 10px;
+    background: #F1F1F1;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contenedortexto {
+    display: flex;
+    justify-content: space-between;
+    background: #F1F1F1;
+    align-items: center;
+}
+
+
+footer{
+
+    background-color: #363636;
+    /* Color de fondo del footer */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+@media(max-widh:700px){
+
+
+    header{
+        flex-direction: column;
+    }
+
+
+  
+}

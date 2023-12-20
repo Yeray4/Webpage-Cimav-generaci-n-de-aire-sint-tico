@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-right: 100px;
+    padding-left: 70px;
+    min-height: 70PX;
+    
+}
+.img1{
+    width:110px;
+    height:auto; 
+}
+
+
+
+.navlink{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ope {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.contenedorRecuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recuadro1 {
+    padding: 10px;
+    border: 1px solid #000;
+    width: 390px;
+
+    border-radius: 10px;
+    background: #F1F1F1;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 3px;
+}
+.fuentex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px; 
+    padding-bottom: 10px;
+
+}
+.contenedortexto {
+    display: flex;
+    background: #F1F1F1;
+    align-items: center;
+}
+
+.nombre {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #4C3EE9;
+    background: #F1F1F1;
+    font-size: 24px;
+}
+
+.t1,
+.hr,
+.v1,
+.t1c,
+.hrc,
+.vc {
+    display: inline-block;
+    margin-right: 5px;
+    background: #F1F1F1;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.valort1,
+.valorRH1,
+.vfinalt1,.vfinalh1 {
+    display: inline-block;
+    font-size: 19px;
+    text-align: center;
+    color: #29a025;
+}
+
+.t1c,
+.hrc,
+.vc {
+    margin-right: 30px;
+}
+
+.divFuente {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px; 
+
+}
+
+.a3 {
+    text-decoration: none;
+}
+
+.btnop {
+
+    background-color: #080808;
+    /* Cambiar el color de fondo del botón */
+    color: white;
+    /* Cambiar el color del texto del botón */
+    border: none;
+    /* Eliminar el borde del botón */
+    padding: 10px 20px;
+    /* Cambiar el espaciado interno del botón */
+    border-radius: 10px;
+    font-size: 18px;
+    /* Cambiar el tamaño de fuente del botón */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar por encima del botón */
+    margin-left: 60px;
+    width:123px; 
+    height:40px;
+    transition: all  0.6s ease;
+}
+
+
+footer {
+
+    background-color: #363636;
+    /* Color de fondo del footer */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
+    text-align: left;
+}
+
+
+
+.cambiocolor2{
+    background-color: #CC3819;
+    transition: all  0.5s ease;
+}
+
+
+@media(max-widh:700px){
+
+
+    header{
+        flex-direction: column;
+    }
+
+  
+}
