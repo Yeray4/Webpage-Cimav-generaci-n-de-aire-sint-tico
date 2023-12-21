@@ -13,7 +13,9 @@ Vista previa del prototipo circuito:
 
 
 Vista previa de pagina web:
+
 ![image](https://github.com/Yeray4/Webpage-Cimav-generacion-de-aire-sintetico/assets/94934461/44fd34ab-02a3-4738-a689-cb4167a55489)
+
 ![image](https://github.com/Yeray4/Webpage-Cimav-generacion-de-aire-sintetico/assets/94934461/5d2d6fb3-2083-4888-8ffc-fa4364d86ebe)
 
 
